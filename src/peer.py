@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""HW6 Mini-Torrent Peer (7조).
+"""HW6 Mini-Torrent Peer (9조).
 
     python peer.py --env envs/A.json --id P1 <TRACKER_IP> <TRACKER_PORT>
     python peer.py --env envs/C3.json --id P1 --policy rarest <TRACKER_IP> <TRACKER_PORT>

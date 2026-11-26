@@ -1,4 +1,4 @@
-"""hw6net.py - Tracker 와 Peer 가 함께 쓰는 코드 (7조 HW6).
+"""hw6net.py - Tracker 와 Peer 가 함께 쓰는 코드 (9조 HW6).
 
   * load_env   : env.json 읽기 (키트 lib/env_example.py 의 load_env 와 같은 규칙)
   * Conn       : TCP 연결 하나 + 수신 버퍼 하나 (read_line / read_exact / send_line)

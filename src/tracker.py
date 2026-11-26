@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""HW6 Mini-Torrent Tracker (7조).
+"""HW6 Mini-Torrent Tracker (9조).
 
     python3 tracker.py --env envs/B.json            # 0.0.0.0:<env tracker.port>
     python3 tracker.py --env envs/B.json 9500       # 다른 포트
