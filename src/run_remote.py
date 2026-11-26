@@ -24,7 +24,7 @@ import sys
 import time
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-ROOT = os.path.dirname(HERE)                       # G9HW6/
+ROOT = os.path.dirname(HERE)                       # G7HW6/
 DEFAULT_WORK = os.path.join(os.path.expanduser("~"), "hw6work")   # OneDrive 밖 실행 폴더 (240 MB 데이터)
 VM_HOST = "13.125.21.50"
 VM_USER = "ubuntu"
