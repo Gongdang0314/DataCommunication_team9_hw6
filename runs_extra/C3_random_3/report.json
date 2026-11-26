@@ -1,0 +1,63 @@
+{
+  "env": "C3",
+  "run": "C3",
+  "seed": 501,
+  "policy": null,
+  "destroy_plan": {
+    "peer": "P1",
+    "trigger": "after_replication",
+    "value": 0.369,
+    "replica_safe": false
+  },
+  "crashes_sent": [],
+  "T_rep": {
+    "share10.bin": 57.55,
+    "share20.bin": 63.55,
+    "share30.bin": 83.55
+  },
+  "p_rep": 0.7562,
+  "upstat_at_rep": {
+    "share10.bin": [
+      296,
+      159
+    ],
+    "share20.bin": [
+      399,
+      320
+    ],
+    "share30.bin": [
+      545,
+      480
+    ]
+  },
+  "dup_ratio": {
+    "share10.bin": 0.4628,
+    "share20.bin": 0.198,
+    "share30.bin": 0.1193
+  },
+  "T_destroy": 103.07,
+  "p_destroy": 0.8545,
+  "T_dead": {
+    "P1": 125.08
+  },
+  "T_done": {
+    "P3": 63.14,
+    "P2": 82.71,
+    "P4": 145.39
+  },
+  "T_last_done": 145.39,
+  "T_alldone": 145.6,
+  "T_exit": 146.67,
+  "done_kind": {
+    "P3": "FULL",
+    "P2": "FULL",
+    "P4": "FULL"
+  },
+  "peers": {
+    "P1": "DEAD",
+    "P2": "BYE",
+    "P3": "BYE",
+    "P4": "BYE"
+  },
+  "abort": null
+}

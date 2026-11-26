@@ -1,0 +1,84 @@
+{
+  "env": "B",
+  "run": "B",
+  "seed": 202,
+  "policy": "random",
+  "destroy_plan": {
+    "peer": "P3",
+    "trigger": "time",
+    "value": 34,
+    "replica_safe": true
+  },
+  "crashes_sent": [
+    {
+      "t": 45.05,
+      "peer": "P4",
+      "cmd": "DISCONNECT",
+      "sec": 6.4
+    },
+    {
+      "t": 56.06,
+      "peer": "P2",
+      "cmd": "DISCONNECT",
+      "sec": 9.9
+    },
+    {
+      "t": 64.56,
+      "peer": "P1",
+      "cmd": "DISCONNECT",
+      "sec": 10.7
+    }
+  ],
+  "T_rep": {
+    "share10.bin": 68.55,
+    "share20.bin": 72.55,
+    "share30.bin": 97.55
+  },
+  "p_rep": 0.7764,
+  "upstat_at_rep": {
+    "share10.bin": [
+      286,
+      160
+    ],
+    "share20.bin": [
+      438,
+      320
+    ],
+    "share30.bin": [
+      595,
+      479
+    ]
+  },
+  "dup_ratio": {
+    "share10.bin": 0.4406,
+    "share20.bin": 0.2694,
+    "share30.bin": 0.195
+  },
+  "T_destroy": 97.59,
+  "p_destroy": 0.7764,
+  "T_dead": {
+    "P3": 119.59
+  },
+  "T_done": {
+    "P3": 72.21,
+    "P2": 98.49,
+    "P1": 130.34,
+    "P4": 155.2
+  },
+  "T_last_done": 155.2,
+  "T_alldone": 155.61,
+  "T_exit": 156.68,
+  "done_kind": {
+    "P3": "FULL",
+    "P2": "FULL",
+    "P1": "FULL",
+    "P4": "FULL"
+  },
+  "peers": {
+    "P1": "BYE",
+    "P2": "BYE",
+    "P3": "DEAD",
+    "P4": "BYE"
+  },
+  "abort": null
+}

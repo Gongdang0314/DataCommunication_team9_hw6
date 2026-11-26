@@ -1,0 +1,71 @@
+{
+  "env": "DEV",
+  "run": "A",
+  "seed": 901,
+  "policy": "random",
+  "destroy_plan": null,
+  "crashes_sent": [
+    {
+      "t": 6.07,
+      "peer": "P2",
+      "cmd": "DISCONNECT",
+      "sec": 2.5
+    },
+    {
+      "t": 8.57,
+      "peer": "P1",
+      "cmd": "DISCONNECT",
+      "sec": 2.2
+    }
+  ],
+  "T_rep": {
+    "share3.bin": 8.57,
+    "share5.bin": 15.57,
+    "share7.bin": 16.57
+  },
+  "p_rep": 0.8556,
+  "upstat_at_rep": {
+    "share3.bin": [
+      91,
+      48
+    ],
+    "share5.bin": [
+      121,
+      80
+    ],
+    "share7.bin": [
+      192,
+      112
+    ]
+  },
+  "dup_ratio": {
+    "share3.bin": 0.4725,
+    "share5.bin": 0.3388,
+    "share7.bin": 0.4167
+  },
+  "T_destroy": null,
+  "p_destroy": null,
+  "T_dead": {},
+  "T_done": {
+    "P3": 15.28,
+    "P2": 15.9,
+    "P1": 18.05,
+    "P4": 18.99
+  },
+  "T_last_done": 18.99,
+  "T_alldone": 19.07,
+  "T_exit": 20.93,
+  "done_kind": {
+    "P3": "FULL",
+    "P2": "FULL",
+    "P1": "FULL",
+    "P4": "FULL"
+  },
+  "peers": {
+    "P1": "BYE",
+    "P2": "BYE",
+    "P3": "BYE",
+    "P4": "BYE"
+  },
+  "abort": null
+}

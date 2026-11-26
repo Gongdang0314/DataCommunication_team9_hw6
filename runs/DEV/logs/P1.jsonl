@@ -1,0 +1,217 @@
+{"t": 0.0, "peer": "P1", "ev": "START", "env": "DEV", "run": "A", "policy": "random", "up_kbps": 1090, "down_kbps": 944, "rng_seed": 506009, "tracker": "13.125.21.50:9500", "workers": 8, "per_peer_max": 4}
+{"t": 0.01, "peer": "P1", "ev": "HASH", "file": "share3.bin", "ok": true, "sec": 0.0, "origin": true}
+{"t": 0.58, "peer": "P1", "ev": "GET", "file": "share5.bin", "chunks": 80}
+{"t": 0.6, "peer": "P1", "ev": "GET", "file": "share7.bin", "chunks": 112}
+{"t": 0.89, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 0, "src": "P3"}
+{"t": 0.96, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 36, "src": "P3"}
+{"t": 0.99, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 26, "src": "P2"}
+{"t": 1.12, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 8, "src": "P2"}
+{"t": 1.16, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 83, "src": "P3"}
+{"t": 1.25, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 25, "src": "P2"}
+{"t": 1.36, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 74, "src": "P3"}
+{"t": 1.37, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 79, "src": "P2"}
+{"t": 1.63, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 63, "src": "P2"}
+{"t": 1.69, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 38, "src": "P2"}
+{"t": 1.69, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 98, "src": "P3"}
+{"t": 1.76, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 39, "src": "P3"}
+{"t": 1.82, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 72, "src": "P2"}
+{"t": 2.02, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 94, "src": "P3"}
+{"t": 2.07, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 22, "src": "P2"}
+{"t": 2.13, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 55, "src": "P2"}
+{"t": 2.22, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 85, "src": "P3"}
+{"t": 2.26, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 10, "src": "P2"}
+{"t": 2.45, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 73, "src": "P2"}
+{"t": 2.49, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 10, "src": "P3"}
+{"t": 2.51, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 1, "src": "P2"}
+{"t": 2.62, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 63, "src": "P3"}
+{"t": 2.64, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 28, "src": "P2"}
+{"t": 2.83, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 88, "src": "P3"}
+{"t": 2.89, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 29, "src": "P2"}
+{"t": 3.02, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 42, "src": "P2"}
+{"t": 3.03, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 21, "src": "P3"}
+{"t": 3.04, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 43, "src": "P4"}
+{"t": 3.15, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 24, "src": "P2"}
+{"t": 3.27, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 2, "src": "P2"}
+{"t": 3.29, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 76, "src": "P4"}
+{"t": 3.29, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 13, "src": "P3"}
+{"t": 3.43, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 35, "src": "P3"}
+{"t": 3.56, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 17, "src": "P3"}
+{"t": 3.65, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 53, "src": "P2"}
+{"t": 3.83, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 23, "src": "P3"}
+{"t": 3.84, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 14, "src": "P2"}
+{"t": 3.9, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 110, "src": "P4"}
+{"t": 3.91, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 67, "src": "P2"}
+{"t": 4.03, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 39, "src": "P2"}
+{"t": 4.04, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 3, "src": "P4"}
+{"t": 4.16, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 79, "src": "P3"}
+{"t": 4.16, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 61, "src": "P4"}
+{"t": 4.23, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 5, "src": "P3"}
+{"t": 4.3, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 33, "src": "P3"}
+{"t": 4.48, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 34, "src": "P2"}
+{"t": 4.56, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 19, "src": "P3"}
+{"t": 4.6, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 71, "src": "P2"}
+{"t": 4.65, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 19, "src": "P4"}
+{"t": 4.73, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 11, "src": "P2"}
+{"t": 4.9, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 100, "src": "P3"}
+{"t": 4.91, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 37, "src": "P4"}
+{"t": 4.92, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 0, "src": "P2"}
+{"t": 5.03, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 55, "src": "P3"}
+{"t": 5.09, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 67, "src": "P4"}
+{"t": 5.11, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 13, "src": "P2"}
+{"t": 5.16, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 86, "src": "P3"}
+{"t": 5.17, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 46, "src": "P2"}
+{"t": 5.3, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 81, "src": "P3"}
+{"t": 5.39, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 102, "src": "P4"}
+{"t": 5.49, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 21, "src": "P2"}
+{"t": 5.5, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 60, "src": "P4"}
+{"t": 5.63, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 93, "src": "P3"}
+{"t": 5.68, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 74, "src": "P2"}
+{"t": 5.76, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 96, "src": "P3"}
+{"t": 5.99, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 60, "src": "P4"}
+{"t": 6.0, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 70, "src": "P2"}
+{"t": 6.03, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 32, "src": "P3"}
+{"t": 6.06, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 72, "src": "P2"}
+{"t": 6.1, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 57, "src": "P3"}
+{"t": 6.12, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 16, "src": "P4"}
+{"t": 6.15, "peer": "P1", "ev": "RETRY", "file": "share5.bin", "idx": 66, "src": "P2", "err": "ConnClosed"}
+{"t": 6.18, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 48, "src": "P4"}
+{"t": 6.26, "peer": "P1", "ev": "RETRY", "file": "share7.bin", "idx": 68, "src": "P2", "err": "ConnClosed"}
+{"t": 6.37, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 24, "src": "P3"}
+{"t": 6.46, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 49, "src": "P4"}
+{"t": 6.46, "peer": "P1", "ev": "RETRY", "file": "share7.bin", "idx": 2, "src": "P2", "err": "ConnClosed"}
+{"t": 6.5, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 11, "src": "P3"}
+{"t": 6.6, "peer": "P1", "ev": "RETRY", "file": "share5.bin", "idx": 31, "src": "P2", "err": "ConnClosed"}
+{"t": 6.77, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 101, "src": "P3"}
+{"t": 6.83, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 75, "src": "P3"}
+{"t": 7.03, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 62, "src": "P3"}
+{"t": 7.17, "peer": "P1", "ev": "FAIL", "file": "share5.bin", "idx": 66, "src": "P2", "err": "ConnectionRefused"}
+{"t": 7.17, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 46, "src": "P3"}
+{"t": 7.27, "peer": "P1", "ev": "FAIL", "file": "share7.bin", "idx": 68, "src": "P2", "err": "ConnectionRefused"}
+{"t": 7.3, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 49, "src": "P3"}
+{"t": 7.37, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 64, "src": "P3"}
+{"t": 7.48, "peer": "P1", "ev": "FAIL", "file": "share7.bin", "idx": 2, "src": "P2", "err": "ConnectionRefused"}
+{"t": 7.48, "peer": "P1", "ev": "BAN", "target": "P2", "sec": 5.0}
+{"t": 7.57, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 77, "src": "P3"}
+{"t": 7.6, "peer": "P1", "ev": "FAIL", "file": "share5.bin", "idx": 31, "src": "P2", "err": "ConnectionRefused"}
+{"t": 7.66, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 8, "src": "P4"}
+{"t": 7.7, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 62, "src": "P3"}
+{"t": 7.77, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 69, "src": "P3"}
+{"t": 7.8, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 91, "src": "P4"}
+{"t": 7.9, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 27, "src": "P3"}
+{"t": 7.92, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 4, "src": "P4"}
+{"t": 8.04, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 2, "src": "P3"}
+{"t": 8.04, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 92, "src": "P4"}
+{"t": 8.18, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 68, "src": "P4"}
+{"t": 8.24, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 57, "src": "P3"}
+{"t": 8.24, "peer": "P1", "ev": "FAIL", "file": "share5.bin", "idx": 66, "src": "P2", "err": "ConnectionRefused"}
+{"t": 8.3, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 20, "src": "P3"}
+{"t": 8.31, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 104, "src": "P4"}
+{"t": 8.37, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 82, "src": "P3"}
+{"t": 8.38, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 103, "src": "P4"}
+{"t": 8.38, "peer": "P1", "ev": "FAIL", "file": "share7.bin", "idx": 68, "src": "P2", "err": "ConnectionRefused"}
+{"t": 8.38, "peer": "P1", "ev": "BAN", "target": "P2", "sec": 5.0}
+{"t": 8.52, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 75, "src": "P4"}
+{"t": 8.57, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 1, "src": "P3"}
+{"t": 8.65, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 36, "src": "P4"}
+{"t": 8.7, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 31, "src": "P3"}
+{"t": 8.76, "peer": "P1", "ev": "CRASH", "sec": 2.2}
+{"t": 11.03, "peer": "P1", "ev": "REJOIN"}
+{"t": 11.44, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 66, "src": "P3"}
+{"t": 11.45, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 73, "src": "P4"}
+{"t": 11.57, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 7, "src": "P4"}
+{"t": 11.63, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 65, "src": "P4"}
+{"t": 11.64, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 68, "src": "P3"}
+{"t": 11.71, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 31, "src": "P2"}
+{"t": 11.71, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 50, "src": "P3"}
+{"t": 11.75, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 66, "src": "P4"}
+{"t": 11.78, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 58, "src": "P2"}
+{"t": 11.85, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 17, "src": "P2"}
+{"t": 11.91, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 37, "src": "P2"}
+{"t": 11.98, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 105, "src": "P3"}
+{"t": 12.05, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 4, "src": "P2"}
+{"t": 12.25, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 12, "src": "P2"}
+{"t": 12.32, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 18, "src": "P2"}
+{"t": 12.39, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 56, "src": "P2"}
+{"t": 12.45, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 6, "src": "P3"}
+{"t": 12.46, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 34, "src": "P4"}
+{"t": 12.58, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 30, "src": "P3"}
+{"t": 12.59, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 52, "src": "P4"}
+{"t": 12.7, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 29, "src": "P2"}
+{"t": 12.77, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 16, "src": "P2"}
+{"t": 12.78, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 111, "src": "P3"}
+{"t": 12.86, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 44, "src": "P4"}
+{"t": 12.98, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 14, "src": "P3"}
+{"t": 13.04, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 70, "src": "P4"}
+{"t": 13.08, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 6, "src": "P2"}
+{"t": 13.18, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 12, "src": "P3"}
+{"t": 13.21, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 61, "src": "P2"}
+{"t": 13.27, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 47, "src": "P4"}
+{"t": 13.27, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 9, "src": "P2"}
+{"t": 13.38, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 87, "src": "P3"}
+{"t": 13.39, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 51, "src": "P4"}
+{"t": 13.57, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 51, "src": "P4"}
+{"t": 13.59, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 33, "src": "P2"}
+{"t": 13.65, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 78, "src": "P2"}
+{"t": 13.72, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 109, "src": "P3"}
+{"t": 13.81, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 58, "src": "P4"}
+{"t": 13.84, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 71, "src": "P2"}
+{"t": 13.97, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 41, "src": "P2"}
+{"t": 14.12, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 47, "src": "P4"}
+{"t": 14.18, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 40, "src": "P3"}
+{"t": 14.24, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 35, "src": "P4"}
+{"t": 14.35, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 32, "src": "P4"}
+{"t": 14.38, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 15, "src": "P3"}
+{"t": 14.42, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 38, "src": "P4"}
+{"t": 14.48, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 44, "src": "P2"}
+{"t": 14.52, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 77, "src": "P3"}
+{"t": 14.6, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 23, "src": "P2"}
+{"t": 14.62, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 59, "src": "P4"}
+{"t": 14.73, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 97, "src": "P2"}
+{"t": 14.76, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 53, "src": "P4"}
+{"t": 14.89, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 65, "src": "P4"}
+{"t": 15.03, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 26, "src": "P4"}
+{"t": 15.05, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 56, "src": "P2"}
+{"t": 15.05, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 106, "src": "P3"}
+{"t": 15.11, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 99, "src": "P2"}
+{"t": 15.16, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 25, "src": "P4"}
+{"t": 15.18, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 84, "src": "P3"}
+{"t": 15.23, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 5, "src": "P4"}
+{"t": 15.43, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 27, "src": "P2"}
+{"t": 15.49, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 80, "src": "P2"}
+{"t": 15.5, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 3, "src": "P4"}
+{"t": 15.59, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 107, "src": "P3"}
+{"t": 15.64, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 64, "src": "P4"}
+{"t": 15.7, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 78, "src": "P4"}
+{"t": 15.74, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 54, "src": "P2"}
+{"t": 15.79, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 9, "src": "P3"}
+{"t": 15.91, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 45, "src": "P4"}
+{"t": 15.99, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 20, "src": "P3"}
+{"t": 16.0, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 42, "src": "P2"}
+{"t": 16.05, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 89, "src": "P4"}
+{"t": 16.13, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 90, "src": "P2"}
+{"t": 16.18, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 48, "src": "P4"}
+{"t": 16.19, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 18, "src": "P3"}
+{"t": 16.32, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 45, "src": "P4"}
+{"t": 16.32, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 43, "src": "P3"}
+{"t": 16.45, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 69, "src": "P2"}
+{"t": 16.45, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 76, "src": "P3"}
+{"t": 16.58, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 30, "src": "P2"}
+{"t": 16.64, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 41, "src": "P2"}
+{"t": 16.65, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 108, "src": "P4"}
+{"t": 16.72, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 50, "src": "P4"}
+{"t": 16.79, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 59, "src": "P4"}
+{"t": 16.86, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 15, "src": "P3"}
+{"t": 16.93, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 22, "src": "P3"}
+{"t": 17.0, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 28, "src": "P3"}
+{"t": 17.06, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 54, "src": "P2"}
+{"t": 17.13, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 40, "src": "P2"}
+{"t": 17.2, "peer": "P1", "ev": "RECV", "file": "share5.bin", "idx": 7, "src": "P2"}
+{"t": 17.22, "peer": "P1", "ev": "HASH", "file": "share5.bin", "ok": true, "sec": 0.02}
+{"t": 17.22, "peer": "P1", "ev": "COMPLETE", "file": "share5.bin", "sec": 16.6, "sources": {"P2": 51, "P4": 19, "P3": 10}}
+{"t": 17.26, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 95, "src": "P4"}
+{"t": 17.33, "peer": "P1", "ev": "RECV", "file": "share7.bin", "idx": 52, "src": "P4"}
+{"t": 17.35, "peer": "P1", "ev": "HASH", "file": "share7.bin", "ok": true, "sec": 0.02}
+{"t": 17.35, "peer": "P1", "ev": "COMPLETE", "file": "share7.bin", "sec": 16.8, "sources": {"P3": 61, "P4": 38, "P2": 13}}
+{"t": 18.11, "peer": "P1", "ev": "DONE", "kind": "FULL", "detail": ""}
+{"t": 20.11, "peer": "P1", "ev": "ALLDONE", "done": 1, "alive": 1}
+{"t": 20.17, "peer": "P1", "ev": "EXIT", "code": 0, "up_mb": 9.8, "down_mb": 12.0}

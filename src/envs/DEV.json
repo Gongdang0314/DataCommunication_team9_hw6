@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "name": "DEV",
+  "run": "A",
+  "seed": 901,
+  "description": "개발용 축소판: 3/5/7 MB, 1,000 KB/s, 가상 crash 포함. Run A와 같은 구조를 약 20초 안에 확인.",
+  "tracker": {
+    "port": 6000
+  },
+  "chunk_size": 65536,
+  "files": [
+    {
+      "name": "share3.bin",
+      "size": 3145728,
+      "origin": "P1",
+      "sha256": "ee4c8f08fdc1fddabbbf67685623b8639b69712676b7ed732534fe8bf97bf2fb"
+    },
+    {
+      "name": "share5.bin",
+      "size": 5242880,
+      "origin": "P2",
+      "sha256": "0331ff24ca92cde2a1f84c35a72d8d0a133b5c6a7f2b3247ab1fe8ab520ba610"
+    },
+    {
+      "name": "share7.bin",
+      "size": 7340032,
+      "origin": "P3",
+      "sha256": "b2ce83364896abffe927813a6cc71c4a77561a06c6328475721b784ed0b503ee"
+    }
+  ],
+  "peers": [
+    {
+      "id": "P1",
+      "host": "127.0.0.1",
+      "port": 7001,
+      "dir": "p1",
+      "up_kbps": 1090,
+      "down_kbps": 944
+    },
+    {
+      "id": "P2",
+      "host": "127.0.0.1",
+      "port": 7002,
+      "dir": "p2",
+      "up_kbps": 1010,
+      "down_kbps": 948
+    },
+    {
+      "id": "P3",
+      "host": "127.0.0.1",
+      "port": 7003,
+      "dir": "p3",
+      "up_kbps": 958,
+      "down_kbps": 950
+    },
+    {
+      "id": "P4",
+      "host": "127.0.0.1",
+      "port": 7004,
+      "dir": "p4",
+      "up_kbps": 1064,
+      "down_kbps": 981
+    }
+  ],
+  "progress_total_chunks": 720,
+  "download": {
+    "workers": 8,
+    "per_peer_max": 4,
+    "policy": "random",
+    "policy_seed": 506008
+  },
+  "timing": {
+    "heartbeat_sec": 2,
+    "bitmap_refresh_sec": 1,
+    "peers_refresh_sec": 3,
+    "dead_sec": 20,
+    "stall_sec": 30,
+    "hang_sec": 60,
+    "deadline_sec": 900,
+    "status_every_sec": 5,
+    "fail_limit": 3,
+    "ban_sec": 5,
+    "report_stale_sec": 3,
+    "tracker_lost_sec": 30
+  },
+  "crashes": [
+    {
+      "peer": "P2",
+      "at_sec": 6.0,
+      "duration_sec": 2.5
+    },
+    {
+      "peer": "P1",
+      "at_sec": 8.3,
+      "duration_sec": 2.2
+    }
+  ],
+  "destroy": null
+}

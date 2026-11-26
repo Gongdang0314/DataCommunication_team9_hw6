@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "name": "C3",
+  "run": "C3",
+  "seed": 501,
+  "description": "Run C3: 같은 env로 --policy random 과 --policy rarest 를 각각 실행해 비교. crash 없음. 모든 원본이 한 부 복제된 뒤(p_rep) 남은 진행량의 u 지점에서 P1 파괴. 손실은 생기지 않음.",
+  "tracker": {
+    "port": 6000
+  },
+  "chunk_size": 65536,
+  "files": [
+    {
+      "name": "share10.bin",
+      "size": 10485760,
+      "origin": "P1",
+      "sha256": "af92575b4365503177c2f2892993e94bd1ef681d33af6d604fc09f7e21d4b587"
+    },
+    {
+      "name": "share20.bin",
+      "size": 20971520,
+      "origin": "P2",
+      "sha256": "3fb7c34016b33fa01eff12f6e068a62302f2190149a4d3ed52665c58a89586f1"
+    },
+    {
+      "name": "share30.bin",
+      "size": 31457280,
+      "origin": "P3",
+      "sha256": "8c12a893f4cfda02486054eefee8f19242f56b150e11f8ffdb4c19bf0fc1955a"
+    }
+  ],
+  "peers": [
+    {
+      "id": "P1",
+      "host": "127.0.0.1",
+      "port": 7001,
+      "dir": "p1",
+      "up_kbps": 545,
+      "down_kbps": 456
+    },
+    {
+      "id": "P2",
+      "host": "127.0.0.1",
+      "port": 7002,
+      "dir": "p2",
+      "up_kbps": 486,
+      "down_kbps": 534
+    },
+    {
+      "id": "P3",
+      "host": "127.0.0.1",
+      "port": 7003,
+      "dir": "p3",
+      "up_kbps": 462,
+      "down_kbps": 515
+    },
+    {
+      "id": "P4",
+      "host": "127.0.0.1",
+      "port": 7004,
+      "dir": "p4",
+      "up_kbps": 463,
+      "down_kbps": 452
+    }
+  ],
+  "progress_total_chunks": 2880,
+  "download": {
+    "workers": 8,
+    "per_peer_max": 4,
+    "policy": null,
+    "policy_seed": 674203
+  },
+  "timing": {
+    "heartbeat_sec": 2,
+    "bitmap_refresh_sec": 1,
+    "peers_refresh_sec": 3,
+    "dead_sec": 20,
+    "stall_sec": 30,
+    "hang_sec": 60,
+    "deadline_sec": 900,
+    "status_every_sec": 5,
+    "fail_limit": 3,
+    "ban_sec": 5,
+    "report_stale_sec": 3,
+    "tracker_lost_sec": 30
+  },
+  "crashes": [],
+  "destroy": {
+    "peer": "P1",
+    "trigger": "after_replication",
+    "value": 0.369,
+    "replica_safe": false
+  }
+}

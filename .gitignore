@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+*.pem
+*.zip
+*.mp4
+.venv/
+
+# 실행 중에만 생기는 큰 데이터 파일 (제출하지 않음)
+data/
+*.bin
+*.part
+*.incomplete
+*.corrupt
+out/
+runs_demo/
+
+# 실행 폴더로 src/ 를 쓸 때 생기는 것 (runs/ 아래의 logs · p1~p4 는 제출물이므로 무시하지 않는다)
+/src/logs/
+/src/p1/
+/src/p2/
+/src/p3/
+/src/p4/
+/src/report.json
+/src/verify.txt

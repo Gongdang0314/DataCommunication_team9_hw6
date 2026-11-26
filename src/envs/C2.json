@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "name": "C2",
+  "run": "C2",
+  "seed": 403,
+  "description": "Run C2: rarest-first, crash 없음. 원본 보유자 P3를 전체 진행률 p*에서 즉시 파괴(replica_safe=false). 손실이 생길 수 있음. 기대: 멈춤 없이 종료, 생존자 bitmap 수렴.",
+  "tracker": {
+    "port": 6000
+  },
+  "chunk_size": 65536,
+  "files": [
+    {
+      "name": "share10.bin",
+      "size": 10485760,
+      "origin": "P1",
+      "sha256": "af92575b4365503177c2f2892993e94bd1ef681d33af6d604fc09f7e21d4b587"
+    },
+    {
+      "name": "share20.bin",
+      "size": 20971520,
+      "origin": "P2",
+      "sha256": "3fb7c34016b33fa01eff12f6e068a62302f2190149a4d3ed52665c58a89586f1"
+    },
+    {
+      "name": "share30.bin",
+      "size": 31457280,
+      "origin": "P3",
+      "sha256": "8c12a893f4cfda02486054eefee8f19242f56b150e11f8ffdb4c19bf0fc1955a"
+    }
+  ],
+  "peers": [
+    {
+      "id": "P1",
+      "host": "127.0.0.1",
+      "port": 7001,
+      "dir": "p1",
+      "up_kbps": 480,
+      "down_kbps": 462
+    },
+    {
+      "id": "P2",
+      "host": "127.0.0.1",
+      "port": 7002,
+      "dir": "p2",
+      "up_kbps": 485,
+      "down_kbps": 540
+    },
+    {
+      "id": "P3",
+      "host": "127.0.0.1",
+      "port": 7003,
+      "dir": "p3",
+      "up_kbps": 544,
+      "down_kbps": 529
+    },
+    {
+      "id": "P4",
+      "host": "127.0.0.1",
+      "port": 7004,
+      "dir": "p4",
+      "up_kbps": 540,
+      "down_kbps": 460
+    }
+  ],
+  "progress_total_chunks": 2880,
+  "download": {
+    "workers": 8,
+    "per_peer_max": 4,
+    "policy": "rarest",
+    "policy_seed": 871735
+  },
+  "timing": {
+    "heartbeat_sec": 2,
+    "bitmap_refresh_sec": 1,
+    "peers_refresh_sec": 3,
+    "dead_sec": 20,
+    "stall_sec": 30,
+    "hang_sec": 60,
+    "deadline_sec": 900,
+    "status_every_sec": 5,
+    "fail_limit": 3,
+    "ban_sec": 5,
+    "report_stale_sec": 3,
+    "tracker_lost_sec": 30
+  },
+  "crashes": [],
+  "destroy": {
+    "peer": "P3",
+    "trigger": "progress",
+    "value": 0.308,
+    "replica_safe": false
+  }
+}

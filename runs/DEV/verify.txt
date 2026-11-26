@@ -1,0 +1,26 @@
+== DEV (run A)   victim: -
+[5] 로그 형식 / [1] 종료 코드
+  ok    P1: exit 0, 이벤트 217줄
+  ok    P2: exit 0, 이벤트 178줄
+  ok    P3: exit 0, 이벤트 156줄
+  ok    P4: exit 0, 이벤트 275줄
+  ok    tracker: exit 0, 이벤트 40줄
+[2] 파일 내용
+  ok    P1 share3.bin: 완성, 해시 일치
+  ok    P1 share5.bin: 완성, 해시 일치
+  ok    P1 share7.bin: 완성, 해시 일치
+  ok    P2 share3.bin: 완성, 해시 일치
+  ok    P2 share5.bin: 완성, 해시 일치
+  ok    P2 share7.bin: 완성, 해시 일치
+  ok    P3 share3.bin: 완성, 해시 일치
+  ok    P3 share5.bin: 완성, 해시 일치
+  ok    P3 share7.bin: 완성, 해시 일치
+  ok    P4 share3.bin: 완성, 해시 일치
+  ok    P4 share5.bin: 완성, 해시 일치
+  ok    P4 share7.bin: 완성, 해시 일치
+[3] 수렴 / [4] 손실
+  ok    share3.bin: 생존자 4명 bitmap 동일, 커버리지 100.0% (유실 0)
+  ok    share5.bin: 생존자 4명 bitmap 동일, 커버리지 100.0% (유실 0)
+  ok    share7.bin: 생존자 4명 bitmap 동일, 커버리지 100.0% (유실 0)
+
+RESULT: PASS

@@ -1,0 +1,31 @@
+{"t": 0.0, "peer": "tracker", "ev": "START_PROGRAM", "env": "C3", "run": "C3", "port": 9500}
+{"t": 1.42, "peer": "tracker", "ev": "JOIN", "id": "P1", "n": 1, "src_ip": "115.139.217.188"}
+{"t": 1.44, "peer": "tracker", "ev": "REGISTER", "id": "P1", "file": "share10.bin", "src_ip": "115.139.217.188"}
+{"t": 1.44, "peer": "tracker", "ev": "JOIN", "id": "P4", "n": 2, "src_ip": "115.139.217.188"}
+{"t": 1.46, "peer": "tracker", "ev": "JOIN", "id": "P2", "n": 3, "src_ip": "115.139.217.188"}
+{"t": 1.47, "peer": "tracker", "ev": "REGISTER", "id": "P2", "file": "share20.bin", "src_ip": "115.139.217.188"}
+{"t": 1.47, "peer": "tracker", "ev": "JOIN", "id": "P3", "n": 4, "src_ip": "115.139.217.188"}
+{"t": 1.47, "peer": "tracker", "ev": "START", "peers": 4}
+{"t": 1.48, "peer": "tracker", "ev": "REGISTER", "id": "P3", "file": "share30.bin", "src_ip": "115.139.217.188"}
+{"t": 24.0, "peer": "tracker", "ev": "REPLICATED", "file": "share10.bin", "t_start": 22.53, "upstat": [177, 159], "progress": 0.1656}
+{"t": 50.01, "peer": "tracker", "ev": "REPLICATED", "file": "share20.bin", "t_start": 48.54, "upstat": [359, 320], "progress": 0.4056}
+{"t": 65.36, "peer": "tracker", "ev": "REGISTER", "id": "P3", "file": "share20.bin", "src_ip": "115.139.217.188"}
+{"t": 66.02, "peer": "tracker", "ev": "REGISTER", "id": "P3", "file": "share10.bin", "src_ip": "115.139.217.188"}
+{"t": 66.67, "peer": "tracker", "ev": "DONE", "id": "P3", "kind": "FULL", "detail": ""}
+{"t": 76.01, "peer": "tracker", "ev": "REPLICATED", "file": "share30.bin", "t_start": 74.54, "upstat": [529, 480], "progress": 0.6431}
+{"t": 76.01, "peer": "tracker", "ev": "ALL_REPLICATED", "t_start": 74.54, "p_rep": 0.6431}
+{"t": 84.04, "peer": "tracker", "ev": "REGISTER", "id": "P2", "file": "share10.bin", "src_ip": "115.139.217.188"}
+{"t": 84.48, "peer": "tracker", "ev": "REGISTER", "id": "P2", "file": "share30.bin", "src_ip": "115.139.217.188"}
+{"t": 85.22, "peer": "tracker", "ev": "DONE", "id": "P2", "kind": "FULL", "detail": ""}
+{"t": 96.53, "peer": "tracker", "ev": "CMD", "target": "P1", "cmd": "DESTROY", "progress": 0.7826}
+{"t": 98.14, "peer": "tracker", "ev": "CMD_DELIVERED", "id": "P1", "cmd": "CMD DESTROY"}
+{"t": 118.54, "peer": "tracker", "ev": "DEAD", "id": "P1", "silent_sec": 20.4}
+{"t": 149.87, "peer": "tracker", "ev": "REGISTER", "id": "P4", "file": "share10.bin", "src_ip": "115.139.217.188"}
+{"t": 151.58, "peer": "tracker", "ev": "REGISTER", "id": "P4", "file": "share20.bin", "src_ip": "115.139.217.188"}
+{"t": 151.88, "peer": "tracker", "ev": "REGISTER", "id": "P4", "file": "share30.bin", "src_ip": "115.139.217.188"}
+{"t": 152.53, "peer": "tracker", "ev": "DONE", "id": "P4", "kind": "FULL", "detail": ""}
+{"t": 152.55, "peer": "tracker", "ev": "ALLDONE", "live": ["P2", "P3", "P4"], "done": {"P3": "FULL", "P2": "FULL", "P4": "FULL"}}
+{"t": 152.76, "peer": "tracker", "ev": "BYE", "id": "P3"}
+{"t": 153.32, "peer": "tracker", "ev": "BYE", "id": "P2"}
+{"t": 153.59, "peer": "tracker", "ev": "BYE", "id": "P4"}
+{"t": 154.14, "peer": "tracker", "ev": "EXIT", "code": 0, "alldone": 151.08, "t_exit": 152.67}

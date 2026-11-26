@@ -1,0 +1,8 @@
+HW#6 Mini-Torrent — 9조 시연 영상
+
+링크: (영상 업로드 후 여기에 링크를 적는다)
+
+내용
+  1. Run A (또는 DEV) 실행 화면 — VM Tracker 화면(SSH) + Peer 4개 ASCII 상태 화면, 가상 crash -> REJOIN
+  2. Run C2 — 원본 P3 파괴 -> DEAD -> 생존자 STALLED -> DONE PARTIAL -> ALLDONE
+  3. verify.py 결과 RESULT: PASS

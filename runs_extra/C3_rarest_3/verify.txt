@@ -1,0 +1,23 @@
+== C3 (run C3)   victim: P1
+[5] 로그 형식 / [1] 종료 코드
+  ok    P1: exit 3, 이벤트 586줄
+  ok    P2: exit 0, 이벤트 651줄
+  ok    P3: exit 0, 이벤트 491줄
+  ok    P4: exit 0, 이벤트 980줄
+  ok    tracker: exit 0, 이벤트 31줄
+[2] 파일 내용
+  ok    P2 share10.bin: 완성, 해시 일치
+  ok    P2 share20.bin: 완성, 해시 일치
+  ok    P2 share30.bin: 완성, 해시 일치
+  ok    P3 share10.bin: 완성, 해시 일치
+  ok    P3 share20.bin: 완성, 해시 일치
+  ok    P3 share30.bin: 완성, 해시 일치
+  ok    P4 share10.bin: 완성, 해시 일치
+  ok    P4 share20.bin: 완성, 해시 일치
+  ok    P4 share30.bin: 완성, 해시 일치
+[3] 수렴 / [4] 손실
+  ok    share10.bin: 생존자 3명 bitmap 동일, 커버리지 100.0% (유실 0)
+  ok    share20.bin: 생존자 3명 bitmap 동일, 커버리지 100.0% (유실 0)
+  ok    share30.bin: 생존자 3명 bitmap 동일, 커버리지 100.0% (유실 0)
+
+RESULT: PASS
